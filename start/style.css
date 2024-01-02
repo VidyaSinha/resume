@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+  
+  }
+  
+  html,body{
+      height: 100%;
+      width: 100%
+  
+  }
+  
+  .main{
+       width: 100%;
+       height:100%;
+       background-color:aliceblue;
+       position: relative;
+       
+  
+  }
+
+  .nav{
+    background-color: rgb(54, 64, 75);
+    height: 1500px;
+    width: 280px;
+    border-right: 2px solid #957a7a;
+
+  }
+  
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+  }
+  
+  .img img {
+    width: 220px;
+    height: 220px; 
+    border-radius: 50%;
+    border: 2px solid rgb(215, 213, 213); 
+    box-sizing: border-box;
+  }
+
+.contact{
+   
+    padding-top: 20%;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #dadada;
+    /* background-color: aqua; */
+    height: 100px;
+    width:220px ;
+    display: flex;
+   margin-left: auto;
+        
+}
+
+.contact h2{
+  color: rgb(231, 233, 235);
+}
+
+.contactt h4{
+   
+    color: rgb(184, 178, 178);  
+    margin-left: auto; 
+    width:220px;
+}
+.education{
+  padding-top: 20%;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #dadada;
+  /* background-color: aqua; */
+  height: 100px;
+  width:220px ;
+  display: flex;
+ margin-left: auto;
+      
+   
+}
+
+.education h2{
+    font-style: normal;
+    font-weight: 400;
+    color: white;   
+}
+.edu h4{
+  color: rgb(184, 178, 178);  
+  margin-left: auto; 
+  width:220px;
+} 
+
+.skills{
+  padding-top: 20%;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #dadada;
+  /* background-color: aqua; */
+  height: 100px;
+  width:220px ;
+  display: flex;
+ margin-left: auto;
+
+}
+.skills h2{
+  font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+.skil li{
+  color: rgb(184, 178, 178);  
+  margin-left: auto; 
+  width:220px;
+}
+
+.main-content {
+  padding-left: 50px;
+  padding-right: 20px;
+    padding-top: 5%;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #dadada;
+    /* background-color: rgb(83, 210, 210); */
+    height: 100px;
+}
+
+
+
